@@ -5,10 +5,10 @@ import MeCab
 import gensim
 import numpy as np
 
-app = Flask(__name__)
-mt = MeCab.Tagger()
-mt.parse('')
-model = gensim.models.Word2Vec.load('./ja/ja.bin')
+# app = Flask(__name__)
+# mt = MeCab.Tagger()
+# mt.parse('')
+# model = gensim.models.Word2Vec.load('./ja/ja.bin')
 
 
 @app.route('/', methods=['POST'])
